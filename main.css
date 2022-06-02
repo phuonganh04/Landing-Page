@@ -1,0 +1,394 @@
+@media only screen and (max-width: 700px) {
+    .part2,
+    .part3,
+    .table {
+        flex-direction: column;
+        display: block;
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.app {
+    background-color: white;
+    margin: 0 60px;
+}
+
+.part1 {
+    min-height: 900px;
+    background-image: url('./image/app.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-left {
+    margin-left: 50px;
+    width: 25%;
+    background-color: rgba(36, 35, 34, 0.5);
+    text-align: center;
+    border-radius: 4px;
+    top: 50%;
+}
+
+.content-left span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    color: rgba(255, 249, 240, 0.8);
+}
+
+.content-left p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 249, 240, 0.8);
+}
+
+.down {
+    background-color: rgba(13, 116, 13, 0.8);
+    margin: 10px 20px 10px 15px;
+    border-radius: 4px;
+    height: 30%;
+    width: 80%;
+}
+
+.download {
+    color: rgba(255, 249, 240, 0.8);
+    background-color: rgba(13, 116, 13, 0.8);
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.down i {
+    color: aliceblue;
+    font-size: 1.4rem;
+    margin-top: 6px;
+}
+
+.content-right {
+    margin-right: 50px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav {
+    background-color: rgb(10, 10, 10);
+    color: rgba(255, 249, 240, 0.8);
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    text-align: center;
+}
+
+.content-right i {
+    font-size: 1.4rem;
+    color: rgba(255, 249, 240, 0.8);
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.part2-content1 {
+    width: 60%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.part2-content1 h1,
+.part3-content h1,
+.part5 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+.part2-content1 h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rgb(7, 190, 47);
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.part2-content1 p,
+.part3-content p,
+.icon span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(70, 67, 67);
+}
+
+.btn-download {
+    background-color: rgb(231, 231, 221);
+    height: 36px;
+    width: 200px;
+}
+
+.box-down {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn-down {
+    background-color: rgb(231, 231, 221);
+    border: none;
+    margin: 10px;
+}
+
+.btn-down:hover {
+    cursor: pointer;
+    color: rgb(165, 170, 170);
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.fa-brands {
+    font-size: 1.2rem;
+    margin-left: 6px;
+}
+
+.fa-android {
+    color: green;
+}
+
+.fa-windows {
+    color: rgb(73, 197, 235);
+}
+
+.part2-content2 {
+    margin-top: 30px;
+}
+
+.part3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(236, 236, 227);
+    /* flex-direction: column; */
+}
+
+.part3-img {
+    /* width: 100%;
+    margin-left: 40px; */
+    margin-bottom: 60px;
+}
+
+.part3-content {
+    margin-left: 10px;
+}
+
+.part3-content h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rgb(243, 15, 15);
+}
+
+.part4 {
+    background-color: rgb(44, 42, 42);
+    text-align: center;
+}
+
+.part4-content {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.part4-text h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.part4-text p,
+.row1 span,
+.row2 span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(230, 230, 201);
+    font-size: 0.8rem;
+}
+
+.row1 i,
+.row2 i {
+    margin: 5%;
+    font-size: 2.5rem;
+}
+
+.row1 span,
+.row2 span {
+    margin: 5%;
+}
+
+.fa-bolt-lightning {
+    color: orange;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.fa-camera {
+    color: rgb(240, 240, 9);
+}
+
+.fa-battery-full {
+    color: rgb(3, 151, 3);
+}
+
+.fa-gem {
+    color: white;
+}
+
+.fa-cloud {
+    color: rgb(9, 157, 184);
+}
+
+.fa-earth-americas {
+    color: yellow;
+}
+
+.fa-hard-drive {
+    color: rgba(22, 100, 202, 0.712);
+}
+
+.part5 {
+    text-align: center;
+}
+
+.part5 p,
+.part6 p,
+.link-study {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(27, 27, 26);
+    font-size: 0.8rem;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+th,
+td {
+    height: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(216, 214, 214);
+    text-align: center;
+    border-radius: 5px;
+    width: 90%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tr1 {
+    background-color: rgb(44, 42, 42);
+    height: 30px;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+}
+
+.table1 span,
+.table2 span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.table1 td,
+.table2 td {
+    color: rgb(87, 95, 95);
+    width: 400px;
+}
+
+.table1 p,
+.table2 p {
+    font-size: 1.5rem;
+}
+
+.table1 {
+    width: 100%;
+    margin-left: 4%;
+}
+
+.table2 {
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.table-row-end {
+    background-color: rgb(231, 231, 221);
+    align-items: center;
+}
+
+.table-row-end .btn-download {
+    margin-left: 40%;
+    margin-right: 100%;
+    background-color: black;
+    border-radius: 4px;
+    width: 130px;
+}
+
+.table-row-end i {
+    color: white;
+}
+
+.table-row-end button {
+    color: white;
+    background-color: black;
+    margin-left: 0px;
+}
+
+.tr2 {
+    background-color: rgb(245, 49, 49);
+    height: 30px;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+}
+
+.part6 {
+    background-color: rgb(231, 231, 221);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.part6-include {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.part6__navbar-item {
+    list-style: none;
+}
+
+.part6__navbar-icon-link {
+    text-decoration: none;
+}
+
+.part6__navbar-icon {
+    color: black;
+    font-size: 2rem;
+}
